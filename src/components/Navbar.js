@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            Dennis TravelleT
+              xai-xai
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                Inicio
               </Link>
             </li>
             <li className='nav-item'>
@@ -46,8 +46,8 @@ function Navbar() {
                 to='/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
-              >
-                Services
+              >  
+                Praias e Turismo
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,7 +56,16 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-                Products
+              Cultura
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/products'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+              Hoteis
               </Link>
             </li>
 
