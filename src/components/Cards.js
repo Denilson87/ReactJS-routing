@@ -24,7 +24,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/images.JFIF'
+              src='images/bilene.jpg'
               text='Vista da praia de Chongoene'
               label='Aventuras'
               path='/Destinos'
