@@ -11,9 +11,9 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
-              path='/services'
+              text='Vista da praia de xai-xai'
+              label='Aventuras'
+              path='/Destinos'
             />
             <CardItem
               src='images/img-2.jpg'
