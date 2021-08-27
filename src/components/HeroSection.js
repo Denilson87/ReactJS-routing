@@ -6,8 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <img src = "/images/xai-xai-beach.jpg"/>
-      {/* <video src='/videos/Dubai_in_4K_-_City_of_Gold.mp4' autoPlay loop muted /> */}
+       {/*<img src = "/images/xai-xai-beach.jpg"/>*/}
+      <video src='/videos/y2mate.com - Mozambique Travel  Top 10 Places to Visit in Mozambique _v240P.mp4' autoPlay loop muted /> 
       <h1>Bem vindo a xai-xai</h1>
       <p>Conheça os melhores destinos turisticos</p>
       <div className='hero-btns'>
