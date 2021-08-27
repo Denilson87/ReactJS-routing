@@ -17,7 +17,7 @@ function Cards() {
             />
             <CardItem
               src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
+              text='Praia de zongoene xai-xai'
               label='Aventuras'
               path='/Destinos'
             />
@@ -25,19 +25,19 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text='Vista da praia de Chongoene'
               label='Aventuras'
               path='/Destinos'
             />
             <CardItem
               src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text='Golfinho praia de xai-xai'
               label='Aventuras'
               path='/Destinos'
             />
             <CardItem
               src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text='Vista da praia do bilene '
               label='Aventuras'
               path='/Registar'
             />
