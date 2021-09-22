@@ -28,9 +28,9 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-              xai-xai
-            <i class='fab fa-typo3' />
+          <Link to='/' className='navbar-logo'  onClick={closeMobileMenu}>
+             Mais vida   
+             <i class='fab fa-twitter' />           
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Inicio
+                Pagina inicial
               </Link>
             </li>
             <li className='nav-item'>
@@ -47,7 +47,7 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >  
-                Praias e Turismo
+                Casos recentes
               </Link>
             </li>
             <li className='nav-item'>
@@ -56,30 +56,30 @@ function Navbar() {
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-              Cultura
+             Prevenção
               </Link>
             </li>
+            
             <li className='nav-item'>
               <Link
                 to=''
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
-              Hoteis
+              Contactos
               </Link>
             </li>
-
             <li>
               <Link
                 to=''
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
-              >
+                >
                 Sign Up
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>Registar</Button>}
+          {button && <Button buttonStyle='btn--outline'>Regista-se aqui</Button>}
         </div>
       </nav>
     </>

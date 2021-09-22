@@ -6,10 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-       {/*<img src = "/images/xai-xai-beach.jpg"/>*/}
-      <video src='/videos/y2mate.com - Mozambique Travel  Top 10 Places to Visit in Mozambique _v240P.mp4' autoPlay loop muted /> 
-      <h1>Bem vindo a xai-xai</h1>
-      <p>Conheça os melhores destinos turisticos</p>
+       <img src = "/images/covid19/COVID-19.jpg"/>      
+      <h1>Corona virus</h1>
+      <p>Fique actualizado sobre a infeciosa causada pelo vírus SARS-CoV-2</p>
       <div className='hero-btns'>
         <Button
           className='btns'
@@ -24,7 +23,7 @@ function HeroSection() {
           buttonSize='btn--large'
           onClick={console.log('hey')}
         >
-          Praias <i className='far fa-play-circle' />
+         Dados <i className='far fa-play-circle' />
         </Button>
       </div>
     </div>

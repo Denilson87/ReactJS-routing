@@ -4,44 +4,42 @@ import CardItem from './CardItem';
 
 function Cards() {
   return (
-    <div className='cards'>
-      <h1>Confira os melhores Destinos </h1>
+    <div className='cards'>     
+      <h1>Informação sobre o Coronavírus (Covid-19)</h1>
+      <div className='tips'>Saiba como proteger a si mesmo e suas crianças do Coronavírus, confira as passos seguintes</div>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/1336_casa_de_cinco_view_thb.jpg'
-              text='Vista da praia de xai-xai'
-              label='Aventuras'
+              src='cards/mobile.png'
+              text='O uso constante da mascara pode reduzir o indice de infecção contra o covid-19.'
+              label='Uso correcto da mascara'
               path='/Destinos'
             />
             <CardItem
-              src='images/featured.jpg'
-              text='Praia de zongoene xai-xai'
-              label='Aventuras'
+              src='cards/acronis-header.jpg'
+              text='Distanciamento social são medidas que buscam restringir o convívio social de foma a evitar a propagação de uma determinada doença.'
+              label='Distanciamento social'
               path='/Destinos'
-            />
-          </ul>
+            />            
+          </ul>          
+        </div>
+
+        <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/bilene.jpg'
-              text='Vista da praia de Chongoene'
-              label='Aventuras'
+              src='cards/restore-wordpress-from-backup-1024x512-1.png'
+              text='Lave frequentemente as mãos. Utilize água e sabão, ou uma solução à base de álcool.'
+              label='Lavar as mãos'
               path='/Destinos'
             />
             <CardItem
-              src='images/hqdefault.jpg'
-              text='Golfinho praia de xai-xai'
-              label='Aventuras'
+              src='cards/acronis-cyber-protection.jpg'
+              text='Ao tossir ou espirrar, cubra boca e nariz com um cotovelo flexionado ou use um lenço de papel.'
+              label='Cubra boca e nariz'
               path='/Destinos'
-            />
-            <CardItem
-              src='images/9566293.jpg'
-              text='Vista da praia do bilene '
-              label='Aventuras'
-              path='/Registar'
-            />
-          </ul>
+            />            
+          </ul>          
         </div>
       </div>
     </div>
